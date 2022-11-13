@@ -29,7 +29,6 @@ hdmi_force_hotplug=1
 hdmi_group=2
 hdmi_mode=87
 hdmi_timings=800 0 40 48 40 480 0 13 3 29 0 0 0 62 0 30000000 6
-disable_overscan=1
 </pre>
 
 <i>NOTE: make certain that disable_overscan is not set to 1. Comment the line "disable_overscan=1" if it exists. (Change to "# disable_overscan=1")</i>
@@ -46,7 +45,6 @@ hdmi_force_hotplug=1
 hdmi_group=2
 hdmi_mode=87
 hdmi_timings=800 0 40 48 40 480 0 13 3 29 0 0 0 62 0 30000000 6
-disable_overscan=1
 </pre>
 
 <i>My full final /boot/config.txt</i>
@@ -120,7 +118,7 @@ max_framebuffers=2
 arm_64bit=1
 
 # Disable compensation for displays with overscan
-#disable_overscan=1
+# disable_overscan=1
 
 [cm4]
 # Enable host mode on the 2711 built-in XHCI USB controller.
