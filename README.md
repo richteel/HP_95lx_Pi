@@ -157,3 +157,13 @@ Mentioning keys to implement is the F11 key, which I do not recall being on the 
 I am using a Raspberry Pi 400 for testing. The HDMI from the Raspberry Pi 400 is connected to BuyDisplay's [40-50 Pins TFT LCD Display Small HDMI Driver Board for Raspberry Pi](https://www.buydisplay.com/40-50-pins-tft-lcd-display-small-hdmi-driver-board-for-raspberry-pi) (800x480 version) with the 50 to 40 Pins Adaptor Board. The display is connected to the middle 40-pin connector of the adaptor board.
 
 <i><b>NOTE:</b> Screen captures are from VNC and resized from 1024x410 to 800x320.</i>
+
+<figure>
+	<img src="images/Photo_01.jpg" />
+	<figcaption>Photo of the test setup</figcaption>
+</figure>
+
+<figure>
+	<img src="images/Photo_02.jpg" />
+	<figcaption>Photo of the screen with the HP 95LX LCD Mask</figcaption>
+</figure>
